@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Dashboard: React.FC = () => {
+  const openStoreDialog = () => {
+    // Implement store dialog opening logic here
+  };
+
   return (
     <div className="h-screen w-full bg-gray-200 text-steelblue">
       <div className="flex h-full">
@@ -20,7 +24,7 @@ const Dashboard: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col items-end space-y-4 pr-4">
-            <button className="w-12 h-12 rounded-full bg-steelblue text-white flex items-center justify-center">
+            <button className="w-12 h-12 rounded-full bg-steelblue text-white flex items-center justify-center" onClick={openStoreDialog}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#32CD32" className="h-6 w-6">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
