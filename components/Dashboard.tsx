@@ -20,7 +20,16 @@ const Dashboard: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col items-end space-y-4 pr-4">
-            {/* addBtn and storeBtn go here */}
+            <button className="w-12 h-12 rounded-full bg-steelblue text-white flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#32CD32" className="h-6 w-6">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+              </svg>
+            </button>
+            <button className="w-12 h-12 rounded-full bg-steelblue text-white flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#FFA500" viewBox="0 0 24 24" stroke="#FFA500" className="h-6 w-6">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6h18M9 6v14l-7-7m7 7v-14m7 14l-7-7" />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
